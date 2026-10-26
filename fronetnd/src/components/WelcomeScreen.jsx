@@ -39,17 +39,17 @@ const WelcomeScreen = (props) => {
        <QuizLogo size="Large"/>   
        <Card className="welcome-card">
         <div className='welcome-card-content-top'>
-          <img src={QuestionBubble} width={172}/>
+          <img src={QuestionBubble} width={172} alt='question'/>
           <h2>Are You Ready?</h2>
           <h3>Let's see how many questions you can answer:</h3>
         </div>
         <ul className='welcome-card-list'>
           <li className='list-item'>
-              <img src={GreenCheckMark}/>
+              <img src={GreenCheckMark} alt='greenscheck'/>
               There are 30 Questions
           </li>
              <li className='list-item'>
-              <img src={GreenCheckMark}/>
+              <img src={GreenCheckMark} alt='checkmark'/>
               You need to pick 1 ans
           </li>
         </ul>

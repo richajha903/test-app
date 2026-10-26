@@ -10,7 +10,7 @@ import fetchQuestionsApi from '../api/fetchQuestiosApi';
 import handleError from '../utils/handleError';
 
 function Restart(){
-    return <img src={RestartIcon}/>
+    return <img src={RestartIcon} alt='restart'/>
 }
 
 const ResultScreen = (props) => {
@@ -56,7 +56,7 @@ const ResultScreen = (props) => {
         <Card className="result-card">
 
             <div className='result-icon-wrapper'>
-                <img src={Trophy}/>
+                <img src={Trophy} alt='trophy'/>
             </div>
             
             <h1 className='result-text'>{feedbackText}</h1>

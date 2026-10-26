@@ -1,10 +1,6 @@
 import Logo from "../../assets/quiz-logo.svg"
 import React from 'react'
 
-
-{/* <QuizLogo/>             => by default small */}
-{/* <QuizLogo size="large/>  => large*/}
-
 const QuizLogo = ({size ="small"}) => {
 
     const allSizes ={
